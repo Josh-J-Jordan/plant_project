@@ -1,23 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    height: 25%;
-    width: 100%;
-    background-color: red;
+    display:block;
+    height: 8vh;
+    width: 100vw;
+    background-color: #588157;
+    /* border-style: groove;
+    border-color: #344e41; */
 }
 
 header {
-    height: 25%;
-    width: 100%;
-    background-color: orange;
+    display:flex;
+    height: 20vh;
+    width: 100vw;
+    background-color: #adc178;
+    /* border-style: groove;
+    border-color: #344e41; */
 }
 
 main {
-    height: 25%;
-    width: 100%;
-    background-color: yellow;
+    display:flex;
+    height: 65vh;
+    width: 100vw;
+    background-color: #f0ead2;
+    border-style: inset;
+    border-color: #f0ead2;
 }
 
 footer {
-    height: 25%;
-    width: 100%;
-    background-color: green;
+    display:flex;
+    height: 7vh;
+    width: 100vw;
+    background-color: #6c584c;
+    /* border-style: groove;
+    border-color: #344e41; */
 }
