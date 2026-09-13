@@ -121,5 +121,32 @@ footer {
 
 }
 
+/*course template specific styles*/
+.course-template nav {
+    background-color: rgb(173, 208, 113);
+
+}
+
+.course-template main {
+    height: 100vh;
+    background-color: rgb(251, 251, 251);
+    border-style: none;
+}
+
+.material {
+    height: 55vh;
+    width:100vw;
+
+    border-bottom: dashed; 
+    border-width: 1px;
+    border-color: #000000;
+
+}
+
+.UI {
+    height:45vh;
+    width:100vw;
+    background-color: rgb(236, 235, 228)}
+
 
 
